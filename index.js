@@ -1,2 +1,4 @@
-#!/usr/bin/env node
-console.log(process.argv[process.argv.length - 1] + 'めう！')
+function meu(str){
+  return str + 'めう！'
+}
+module.exports = meu

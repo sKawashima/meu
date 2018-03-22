@@ -1,12 +1,12 @@
 {
   "name": "meu",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "めう、めうめうめう。",
   "main": "index.js",
   "author": "sKawashima",
   "license": "MIT",
   "private": false,
-  "bin": {"meu": "./bin.js"},
+  "bin": {"meu": "./cli.js"},
   "repository": {
     "type": "git",
     "url": "https://github.com/sKawashima/meu.git"

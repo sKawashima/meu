@@ -1,5 +1,5 @@
 import { h, app } from 'hyperapp' // eslint-disable-line
-import meu from 'meu'
+import meu from './index.js'
 
 import './style.sass'
 

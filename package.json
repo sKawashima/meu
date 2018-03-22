@@ -6,5 +6,5 @@
   "author": "sKawashima",
   "license": "MIT",
   "private": false,
-  "bin": "bin/meu"
+  "bin": {"meu": "./index.js"}
 }

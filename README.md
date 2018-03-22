@@ -18,6 +18,7 @@ npm i meu
 ***.js
 ```javascript
 import meu from 'meu'
+
 console.log(meu(つらい))
 // console->「つらいめう」
 ```

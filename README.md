@@ -10,7 +10,23 @@
 **直打ちでCLI実行するときはcli.jsを頼むめう！！！**
 
 ## Usage
+### as Module
+install
 ```shell
+npm i meu
+```
+***.js
+```javascript
+import meu from 'meu'
+console.log(meu(つらい))
+// console->「つらいめう」
+```
+### as Shell
+install
+```shell
+$ npm i -g meu
+# (省略)
+
 $ meu めう、めうめう
 めう、めうめうめう！
 

@@ -13,6 +13,7 @@
     "type": "git",
     "url": "https://github.com/sKawashima/meu.git"
   },
+  "readme": "README.md",
   "scripts": {
     "dev": "parcel src/index.pug",
     "build": "babel src/index.js --out-file ./index.js && uglifyjs ./index.js -o ./index.js",

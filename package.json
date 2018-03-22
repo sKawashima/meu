@@ -21,7 +21,8 @@
   "keywords": "meumeu",
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "README.json"
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",

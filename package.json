@@ -22,6 +22,7 @@
     "tslib": "^1.9.0"
   },
   "scripts": {
+    "dev": "parcel src/index.pug",
     "build": "parcel build  src/index.js --out-dir ./ && parcel build  src/cli.js --out-dir ./",
     "docs-build": "parcel build  src/docs/index.pug --out-dir ./docs"
   }

@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 const meu = require('./index.js')
-console.log(meu(process.argv[process.argv.length - 1]))
+for(let i = 1;i < process.argv.length;i++){
+  console.log(meu(process.argv[i]))
+}

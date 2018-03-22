@@ -22,7 +22,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "README.json"
+    "README.md"
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -4,12 +4,12 @@ function meu(str){
     if (str != '') return str + 'めう'
   }else{
     return lines.reduce((cur, prev, i) => {
-      if(prev === '') return cur
       if(i === 1) {
         if (prev === '') return cur + 'めう\n'
         return cur + 'めう\n' + prev + 'めう\n'
       }
       else{
+        if (prev === '') return cur
         return cur + prev + 'めう\n'
       }
     })

@@ -1,0 +1,10 @@
+{
+  "name": "meu",
+  "version": "0.0.1",
+  "description": "めう、めうめうめう。",
+  "main": "index.js",
+  "author": "sKawashima",
+  "license": "MIT",
+  "private": false,
+  "bin": "bin/meu"
+}

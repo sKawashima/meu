@@ -1,7 +1,12 @@
 # meu
 
 めう、めうめうめう！
-<font size="6">インストールはnpmで頼むめう！！！</font>
+インストールはnpmで頼むめう！！！
+
+`yarn global`だとpackage.jsonの中身呼んでくれないめう！
+こんな無能だとは知らなかっためう！
+直打ちでCLI実行するときはcli.jsを頼むめう！！！
+
 ## Usage
 ```shell
 $ meu めう、めうめう

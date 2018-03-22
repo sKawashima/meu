@@ -13,17 +13,25 @@
     "type": "git",
     "url": "https://github.com/sKawashima/meu.git"
   },
-  "dependencies": {
+  "scripts": {
+    "dev": "parcel src/index.pug",
+    "build": "babel src/index.js --out-file ./index.js && uglifyjs ./index.js -o ./index.js",
+    "docs-build": "parcel build  src/index.pug  --public-url ./ -d docs"
+  },
+  "keywords": "meumeu",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "hyperapp": "^1.2.0",
     "meu": "^0.0.11",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.2",
     "parcel-plugin-pug": "^0.3.0",
-    "tslib": "^1.9.0"
-  },
-  "scripts": {
-    "dev": "parcel src/index.pug",
-    "build": "parcel build  src/index.js --out-dir ./",
-    "docs-build": "parcel build  src/index.pug --out-dir ./docs"
+    "tslib": "^1.9.0",
+    "uglify-js": "^3.3.16"
   }
 }

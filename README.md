@@ -7,6 +7,7 @@
 
 `yarn global`だとpackage.json>binの中身呼んでくれないめう！
 こんな無能だとは知らなかっためう！
+
 **直打ちでCLI実行するときはcli.jsを頼むめう！！！**
 
 ## Usage
